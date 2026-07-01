@@ -1,44 +1,66 @@
 
 /* static/css/base.css */
 body {
-font-family: 'Source Sans Pro', sans-serif;
-font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
 
 header {
-border-bottom: 1px solid #999;
-margin-bottom: 2rem;
-display: flex;
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
 }
 
 header h1 a {
-color: red;
-text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 .nav-left {
-margin-right: auto;
+    margin-right: auto;
 }
 .nav-right {
-display: flex;
-padding-top: 2rem;
+    display: flex;
+    padding-top: 2rem;
+    
 }
+
+.nav-right h2 a {
+    text-decoration:  none;
+    color: rgb(7, 7, 7);
+}
+
 .post-entry {
-margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .post-entry h2 {
-margin: 0.5rem 0;
+    margin: 0.5rem 0;
 }
+
 .post-entry h2 a,
 .post-entry h2 a:visited {
-color: blue;
-text-decoration: none;
+    color: rgb(20, 20, 28);
+    text-decoration: none;
+
 }
 .post-entry p {
-margin: 0;
-font-weight: 400;
+    margin: 0;
+    font-weight: 400;
 }
 
 .post-entry h2 a:hover {
-color: red;
+    color: red;
+    text-decoration: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(19, 48, 126);
+    padding: 8px;
+    
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 5px 0px;;
 }
